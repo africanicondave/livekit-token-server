@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const { AccessToken } = require('livekit-server-sdk');
+const { AccessToken } = require('@livekit/server-sdk');  // ✅ Corrected import
 
 const LIVEKIT_API_KEY = process.env.LIVEKIT_API_KEY;
 const LIVEKIT_API_SECRET = process.env.LIVEKIT_API_SECRET;
