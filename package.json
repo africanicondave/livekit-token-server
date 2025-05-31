@@ -1,5 +1,5 @@
 {
-  "name": "livekit-token-server",
+  "name": "@livekit/server-sdk": "^1.4.3"
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
